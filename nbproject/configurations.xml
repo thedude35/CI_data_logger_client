@@ -8,7 +8,9 @@
         <logicalFolder name="f1" displayName="system_config" projectFiles="true">
           <itemPath>system.h</itemPath>
           <itemPath>system_config.h</itemPath>
-          <itemPath>tcpip_config.h</itemPath>
+          <itemPath>../../../../microchip_solutions_v2013-06-15/TCPIP/Demo App/Configs/TCPIP ETH97J60.h</itemPath>
+          <itemPath>system_config/HardwareProfile.h</itemPath>
+          <itemPath>system_config/pic18f97j60.h</itemPath>
         </logicalFolder>
         <itemPath>main.h</itemPath>
       </logicalFolder>
@@ -17,19 +19,26 @@
         </logicalFolder>
         <logicalFolder name="f2" displayName="tcpip" projectFiles="true">
           <logicalFolder name="f1" displayName="common" projectFiles="true">
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/common/uart.h</itemPath>
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/common/spi_eeprom.h</itemPath>
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/common/stack_task.h</itemPath>
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/common/spi_ram.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/GenericTypeDefs.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/timer.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TimeDelay.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/Compiler.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="stack" projectFiles="true">
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/dns.h</itemPath>
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/tcpip.h</itemPath>
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/sntp.h</itemPath>
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/udp.h</itemPath>
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/auto_ip.h</itemPath>
-            <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/http2.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/ARP.h</itemPath>
             <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/ETH97J60.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/DHCP.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/DNS.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/HTTP2.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/ICMP.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/IP.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/MAC.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/SNTP.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/StackTsk.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/TCPIP.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/Tick.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/UART.h</itemPath>
+            <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack/UDP.h</itemPath>
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
@@ -47,25 +56,26 @@
           </logicalFolder>
           <logicalFolder name="f2" displayName="tcpip" projectFiles="true">
             <logicalFolder name="f1" displayName="common" projectFiles="true">
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/common/spi_eeprom.c</itemPath>
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/common/spi_ram.c</itemPath>
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/common/uart.c</itemPath>
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/common/stack_task.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Common/timer.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/Common/TimeDelay.c</itemPath>
             </logicalFolder>
             <logicalFolder name="f2" displayName="stack" projectFiles="true">
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/dns_client.c</itemPath>
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/http2.c</itemPath>
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/udp.c</itemPath>
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/sntp.c</itemPath>
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/tcp.c</itemPath>
-              <itemPath>../../../../microchip/mla/v2015_05_15/framework/tcpip/src/ip.c</itemPath>
               <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/ETH97J60.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/ARP.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/DHCP.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/DNS.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/HTTP2.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/ICMP.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/IP.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/SNTP.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/TCP.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/UDP.c</itemPath>
+              <itemPath>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack/Tick.c</itemPath>
             </logicalFolder>
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="system_config" projectFiles="true">
-        <itemPath>uart_config.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
     </logicalFolder>
@@ -76,9 +86,10 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
+    <Elem>../../../../microchip_solutions_v2013-06-15/Microchip</Elem>
     <Elem>../../../../microchip/mla/v2015_05_15/framework/tcpip</Elem>
-    <Elem>../../../../microchip_solutions_v2013-06-15/Microchip/TCPIP Stack</Elem>
-    <Elem>../../../../microchip_solutions_v2013-06-15/Microchip/Include/TCPIP Stack</Elem>
+    <Elem>../../../../Program Files (x86)/Microchip/mplabc18/v3.47/h</Elem>
+    <Elem>.</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -86,7 +97,7 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>PIC18F97J60</targetDevice>
-        <targetHeader></targetHeader>
+        <targetHeader>AC162064</targetHeader>
         <targetPluginBoard></targetPluginBoard>
         <platformTool>ICD3PlatformTool</platformTool>
         <languageToolchain>C18</languageToolchain>
@@ -133,7 +144,8 @@
         <property key="enable-ot" value="true"/>
         <property key="enable-ou" value="true"/>
         <property key="enable-ow" value="true"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="..\..\..\..\microchip_solutions_v2013-06-15\Microchip\Include;..\..\..\..\microchip_solutions_v2013-06-15\Microchip\Common;..\..\..\..\microchip_solutions_v2013-06-15\Microchip\TCPIP Stack;..\..\..\..\microchip_solutions_v2013-06-15\Microchip\Include\TCPIP Stack;system_config"/>
         <property key="optimization-master" value="Enable all"/>
         <property key="preprocessor-macros" value=""/>
         <property key="procedural-abstraction-passes" value="4"/>
